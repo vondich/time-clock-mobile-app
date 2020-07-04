@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: "normal",
         color: "#777777",
-        fontFamily: "Roboto",
+        fontFamily: "System",
     },
 });
 

@@ -33,6 +33,7 @@ class TimeLogComponent extends Component {
                 console.log("TimeLogComponent::onTimeLogButtonPress::then", result);
                 this.setTimeLog(result);
                 this.showLoader(false);
+                this.props.showError(null);
             })
             .catch(error => {
                 console.log("TimeLogComponent::onTimeLogButtonPress::catch", error);
